@@ -1,0 +1,24 @@
+VL53L0X 
+	Time of flight lézeres távolságérzékelő
+	3-100 cm
+	nem túl pontos, de gyors
+	I2C kommunikáció
+
+	460 huf https://www.aliexpress.com/item/32828144370.html?spm=a2g0o.cart.0.0.47843c00YNRWfe&mp=1
+	Valszeg másolat - írták hogy néha elcsúszik a mérés több cm-el is -> ez nekem nem baj amíg távolság különbségben pontos 
+	tudok venni 3-at egyik csak jó lesz, utána tudom kalibrálni.
+	
+PDI-HV5807MG 7KG
+	Servo 
+	Operating Speed (6.0V): 0.063sec/60°
+	Operating Speed (8.4V): 0.048sec/60°
+	Stall Torque (6.0V): 5.71 kg.cm
+	Stall Torque (8.4V): 7.22kg.cm	-> 0,70804013 Nm 
+	
+	h=2 cm r=10cm pla korong tehetetlenségi nyomatéka ~= 0,02km*m^2 fogaskerekekkel, golyóval, veszteséggel együtt legyen 0,04
+	Szöggyorsulás becslés: 17,7 rad/s^2 
+	golyó tangenciális gyorsulása (ha r=10cm) :  1,77 m/s^2 
+
+	9500 huf https://www.aliexpress.com/item/32763467152.html?spm=a2g0o.cart.0.0.3b2d3c00eIT8aK&mp=1
+	27 napos szállítás 
+
