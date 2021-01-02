@@ -87,9 +87,9 @@ Feltételezve, hogy az elkészülő robot 10 másodpercenként tud 1-et dobni, �
 Robot megépítése.
 
 Komplexitás csökkentése.<br/>
-A mosteni probléma szándékosan túl komplex, hogy lássam ezt hogyan tudol evolúciós algoritmussal megoldani, azonban ha gyorsan tanuló robotot szeretnék érdemes minimumra csökkenteni a komplexitást. Jelenleg 8 illetve 10 paraméterből állő bemeneteket alkalmazok egy szögyorsulás görbe leírására. Az eldobott golyó leírható az eldobás pillanatában a golyó sebességével, és a dobókar szögével. Mivel az elrepülő golyó 2 paraméterel leírható, megfelelően megválasztott 2 bemeneti paraméter elegendő. Pl. szöggyorsulás és gyorsulás időtartama
+A mosteni probléma szándékosan túl komplex, hogy lássam ezt hogyan tudom evolúciós algoritmussal megoldani, azonban ha gyorsan tanuló robotot szeretnék érdemes minimumra csökkenteni a komplexitást. Jelenleg 8 illetve 10 paraméterből állő bemeneteket alkalmazok egy szögyorsulás görbe leírására. Az eldobott golyó leírható az eldobás pillanatában a golyó sebességével, és a dobókar szögével. Mivel az elrepülő golyó 2 paraméterel leírható, megfelelően megválasztott 2 bemeneti paraméter elegendő. Pl. szöggyorsulás és gyorsulás időtartama
 
-A valóságot jobban közelítő szimuláció készítése physics engine alkalmazásával. És a neurális háló helyett ezt használni előteszteléshez. Vagy neural netwok könyvtárak használatával pontosabbá tenni a hálót.
+A valóságot jobban közelítő szimuláció készítése physics engine alkalmazásával. És a neurális háló helyett ezt használni előteszteléshez. Vagy neural network könyvtárak használatával pontosabbá tenni a hálót.
 
 A valós robot pontatlanságának szimulálása, és olyan algoritmus készítése, mely képes ezt kezelni.
 
